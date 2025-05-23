@@ -1,13 +1,16 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Image from './source/img'
-import Audio from './source/audio'
-
+//import Img from './source/img'
+import Video from './source/video'
+import Button from './source/button'
+//import Sound from './source/sound'
+//import Useeffect from './source/useeffect'
 const App = () => {
   return (
     <View>
-      <Image/>
-      <Audio/>
+      {/*<Button/>*/}
+      {/*<Sound/>*/}
+      <Video/>
     </View>
   );
 };
