@@ -20,8 +20,7 @@ const videoplayer = () => {
 const { width }=Dimensions.get('window');
 const styles = StyleSheet.create({
     container:{
-        flex:1,
-        backgroundColor:'lightgreen',
+        backgroundColor:'lightblue',
         justifyContent:'center',
         alignItems:'center',
         padding:50,
