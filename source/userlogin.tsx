@@ -1,8 +1,8 @@
 import { StyleSheet, Text, View,TextInput,Button } from 'react-native'
 import React,{useState} from 'react'
-//import Welcome from './welcome'
+import Welcome from './welcome';
 
-export default function userlogin({navigation}){
+export default function Userlogin({navigation}){
     const [username,setUsername]=useState('')
     const [password,setPassword]=useState('')
     return(
@@ -22,7 +22,7 @@ export default function userlogin({navigation}){
               secureTextEntry
               value={password}
               onChangeText={setPassword}/>
-              <Button title="Login" onPress={() => navigation.navigate('Welcome')}/>
+              <Button title="Login" onPress={() => navigation.navigate('Profile')}/>
             </View>
         </View>
     )
